@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 100px auto;
+    max-width: 1440px;
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.header__container {
+    display: flex;
+}
+
+.header__container a img {
+    margin-left: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.header__container ul {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    margin-top: 39px;
+    margin-left: 143px;
+    margin-bottom: 38px;
+
+}
+
+.header__container .item {
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.header__container .insta {
+    margin-left: 146px;
+    margin-top: 36px;
+    margin-bottom: 34px;
+}
+
+.header__container .face {
+    margin-left: 16px;
+    margin-top: 36px;
+    margin-bottom: 34px;
+
+}
+
+.header__container .telephun {
+    margin-left: 63px;
+    margin-top: 36px;
+    margin-bottom: 34px;
+
+}
+
+.header__container .raqam {
+    color: #3D4A39;
+    font-family: normal;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%;
+    text-transform: uppercase;
+    margin-top: 40px;
+    margin-left: 7px;
+}
+.hero__container {
+    margin-bottom: 100px;
+}
+
+.hero__container img {
+    width: 1440px;
+    height: 687px;
+    flex-shrink: 0;
+    margin-bottom: 50px;
+    background: url(<path-to-image>), lightgray 0px -132.453px / 100% 155.454% no-repeat;
+}
+
+.hero__container h1 {
+    color: white;
+    text-align: center;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    /* 67.2px */
+    text-transform: uppercase;
+    margin-top: -600px;
+}
+
+.hero__container p {
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    margin-top: 20px;
+    /* 27px */
+    opacity: 0.8;
+    margin-top: -5px;
+}
+
+.hero__container button {
+    cursor: pointer;
+    width: 260px;
+    padding: 22px 56px;
+    align-items: flex-start;
+    gap: 10px;
+    border: none;
+    background-color: #AE7B3C;
+    margin-left: 600px;
+    margin-top: 30px;
+    color: white;
+    
+}
